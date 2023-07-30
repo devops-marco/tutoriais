@@ -99,12 +99,12 @@
            runs-on: ubuntu-latest
 
            steps:
-           - uses: actions/checkout@v2
+           - uses: actions/checkout@v3
 
            - name: Use Node.js
              uses: actions/setup-node@v1
              with:
-               node-version: '14.x'
+               node-version: '18.x'
 
            - name: Install Dependencies
              run: npm install
@@ -142,12 +142,12 @@
         runs-on: ubuntu-latest
 
         steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v3
 
         - name: Use Node.js
           uses: actions/setup-node@v1
           with:
-            node-version: '14.x'
+            node-version: '18.x'
 
         - name: Install Dependencies
           run: npm install
@@ -173,4 +173,3 @@
     3. Para ver os detalhes de um trabalho, clique no nome do trabalho na barra lateral esquerda ou no gráfico de visualização. Isso abrirá uma página com os detalhes do trabalho, incluindo cada passo do trabalho e o resultado de cada passo.
     4. Para ver os resultados de uma etapa, clique no nome da etapa. Isso abrirá uma janela com os detalhes da etapa, incluindo o log de saída da etapa.
 
-    Espero que este tutorial seja útil para você. Se você tiver mais perguntas ou precisar de mais detalhes, sinta-se à vontade para perguntar.
