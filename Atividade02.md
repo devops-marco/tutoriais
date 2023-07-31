@@ -1,4 +1,6 @@
-Abaixo vou te fornecer cinco arquivos YAML distintos. Você deve seguir as referências de pesquisa e explicar o que cada um deles realiza.
+Abaixo vou te fornecer cinco arquivos YAML distintos. Você deve seguir as referências de pesquisa e explicar em detalhes a sintaxe do que cada arquivo faz.
+
+## Exercício 1: Fluxo de trabalho para implantar arquivo Node
 
   1. **Arquivo YAML**
 
