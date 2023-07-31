@@ -7,7 +7,7 @@
     1. **Instalação do Node.js**: Para rodar uma aplicação Node.js, você precisará instalar o Node.js em sua máquina. Você pode verificar se o Node.js está instalado corretamente em seu computador abrindo um novo terminal e digitando `node --version`. Você deverá ver a versão atual do Node.js instalada.
     2. **Criando uma aplicação Node.js 'Hello World'**: Crie uma pasta vazia chamada 'hello', navegue até ela e abra o VS Code:
 
-    ```
+    ```sh
     mkdir hello
     cd hello
     code .
@@ -15,7 +15,7 @@
 
     1. **Criando um arquivo JavaScript**: No VS Code, pressione o botão 'New File' e nomeie o arquivo como 'app.js'. Crie uma variável de string simples em 'app.js' e envie o conteúdo da string para o console:
 
-    ```
+    ```js
     var msg = 'Hello World';
     console.log(msg);
     ```
@@ -41,21 +41,21 @@
 
        Inicialize um novo repositório Git com o comando:
 
-       ```
+       ```sh
        git init
        ```
     2. **Adicionando Arquivos ao Repositório Git**
 
        Adicione todos os arquivos do seu projeto ao novo repositório Git com o comando:
 
-       ```
+       ```sh
        git add .
        ```
     3. **Commitando as Alterações**
 
        Faça um commit das alterações com o comando:
 
-       ```
+       ```sh
        git commit -m "Initial commit"
        ```
     4. **Conectando com o GitHub**
@@ -64,7 +64,7 @@
 
        No terminal do VS Code, adicione o URL do repositório GitHub como o "origin" remoto:
 
-       ```
+       ```sh
        git remote add origin your-github-repo-url
        ```
 
@@ -89,7 +89,7 @@
 
        Dentro do arquivo YAML, você pode definir o seu fluxo de trabalho. Aqui está um exemplo de um fluxo de trabalho básico que é acionado a cada push para o repositório:
 
-       ```
+       ```yaml
        name: CI
 
        on: [push]
@@ -130,7 +130,7 @@
 
     Para disparar manualmente um fluxo de trabalho, você pode usar o evento `workflow_dispatch` no seu arquivo de fluxo de trabalho. Aqui está um exemplo:
 
-    ```
+    ```yaml
     name: CI
 
     on: 
