@@ -1,14 +1,14 @@
-Introdução à Engenharia do Caos
+# Introdução à Engenharia do Caos
 
 A Engenharia do Caos é uma disciplina de engenharia que se concentra em melhorar a resiliência e a confiabilidade dos sistemas através da introdução proativa de falhas. A ideia é que, ao introduzir falhas de maneira controlada em um sistema, podemos descobrir e corrigir problemas antes que eles ocorram em um ambiente de produção, onde podem ter consequências muito mais graves.
 
-Introdução ao Gremlin
+## Introdução ao Gremlin
 
 Gremlin é uma plataforma líder em Engenharia do Caos como serviço. Ele fornece uma maneira simples, segura e segura de realizar experimentos de Engenharia do Caos em uma variedade de sistemas, incluindo servidores físicos, máquinas virtuais, contêineres e orquestradores de contêineres.
 
 O Gremlin fornece uma variedade de ataques que podem ser usados para introduzir diferentes tipos de falhas, incluindo atrasos de rede, falhas de CPU, falhas de disco e muito mais. Ele também fornece uma interface de usuário intuitiva e uma API poderosa, tornando-o fácil de usar para engenheiros de todos os níveis de experiência.
 
-Tipos de Ataques com Gremlin
+## Tipos de Ataques com Gremlin
 
 O Gremlin fornece três categorias de experimentos:
 
@@ -18,7 +18,7 @@ O Gremlin fornece três categorias de experimentos:
 
 Cada experimento testa sua resiliência de uma maneira diferente. Os experimentos de recursos são um ótimo ponto de partida - simples de executar e entender. Eles revelam como seu serviço se degrada quando é privado de CPU, memória, IO ou espaço em disco.
 
-Ataque a um servidor Nginx com Gremlin
+## Ataque a um servidor Nginx com Gremlin
 
 Aqui está um exemplo de como você pode usar o Gremlin para realizar um ataque de Engenharia do Caos em um servidor Nginx rodando em um contêiner Docker:
 
