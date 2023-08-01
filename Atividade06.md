@@ -34,7 +34,7 @@ Este comando inicia um contêiner chamado my-nginx rodando o servidor Nginx e ma
 
 Execute um ataque Gremlin: Agora você pode executar um ataque Gremlin no contêiner my-nginx. 
 
-Por exemplo, você pode introduzir um atraso de 10 segundos em todas as chamadas de rede feitas a partir do contêiner my-nginx com o seguinte comando:
+Por exemplo, você pode introduzir uma latência nas chamadas durante 10 segundos em todas as chamadas de rede feitas a partir do contêiner my-nginx com o seguinte comando:
 
 ```sh
 docker exec -it my-gremlin gremlin attack delay --length 10 --target container my-nginx
